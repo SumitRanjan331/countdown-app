@@ -1,0 +1,21 @@
+
+.countdown-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .countdown-timer input, .countdown-timer button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .countdown-timer div {
+    font-size: 24px;
+    color: #333;
+  }
+  
