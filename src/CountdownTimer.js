@@ -23,7 +23,7 @@ const CountdownTimer = () => {
         if (difference <= 0) {
           clearInterval(intervalId);
           setTimerActive(false);
-          alert('Time is up!');
+          alert('Please select future time');
           return;
         }
 
@@ -75,22 +75,22 @@ const CountdownTimer = () => {
       <div className="timer-display">
         <div className="timer-item">
           <div>{timeLeft.days}</div>
-          Days
+          <span>Days</span>
         </div>
         <div className="timer-item">
           <div>{timeLeft.hours}</div>
-          Hours
+          <span>Hours</span>
         </div>
         <div className="timer-item">
-        <div>{timeLeft.minutes}</div>
-          Minutes
+         <div>{timeLeft.minutes}</div>
+         <span>Minutes</span>
         </div>
         <div className="timer-item">
-        <div>{timeLeft.seconds}</div>
-          Seconds
+         <div>{timeLeft.seconds}</div>
+         <span>Seconds</span>
         </div>
       </div>
-      
+      <div id='creator'>Created by SUMIT RANJAN...</div>
     </div>
   );
 };

@@ -19,25 +19,36 @@
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #b336af;
-    background: linear-gradient(#b2c1ea, #a0349c);
+    border: 1px solid #ae71c8;
+    background-color: transparent;
+    color: aliceblue;
+    
+  }
+
+
+  .countdown-timer button:hover{
+    cursor: pointer;
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+
   }
   
-  /* .countdown-timer div {
-    font-size: 24px;
-    color: #333;
-  } */
+  
 
-  .timer-item{
-   
+  .timer-item{ 
      display: inline-block;
      border: 1px solid #ae71c8;
      padding: 10px;
      margin: 5px;
      border-radius: 20px;
-     background: linear-gradient(#e66465, #9198e5);
+     background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
 
   }
+
+  .timer-item span{
+    font-size: 15px;
+  }
   
- 
+ #creator{
+    margin-top: 60px;
+    font-size: 15px;
+ }

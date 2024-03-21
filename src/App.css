@@ -1,6 +1,7 @@
 /* src/App.css */
 .App-header {
-  background: linear-gradient(#e66465, #9198e5);
+  /* background: linear-gradient(#e66465, #9198e5); */
+  background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
   /* background-color: #9370DB; */
   min-height: 100vh;
   display: flex;
