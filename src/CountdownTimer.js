@@ -60,32 +60,37 @@ const CountdownTimer = () => {
 
   return (
     <div className="countdown-timer">
+        <div id='heading'>
+            <h1>Countdown</h1>
+            <h1 id='heading2'>Timer</h1> 
+        </div>
       <div className="input-fields">
         <input type="datetime-local" value={targetDate} onChange={(e) => setTargetDate(e.target.value)} />
-      </div>
-      <div className="timer-display">
-        <div className="timer-item">
-          <span className="timer-value">{timeLeft.days}</span>
-          <span className="timer-label">Days</span>
-        </div>
-        <div className="timer-item">
-          <span className="timer-value">{timeLeft.hours}</span>
-          <span className="timer-label">Hours</span>
-        </div>
-        <div className="timer-item">
-          <span className="timer-value">{timeLeft.minutes}</span>
-          <span className="timer-label">Minutes</span>
-        </div>
-        <div className="timer-item">
-          <span className="timer-value">{timeLeft.seconds}</span>
-          <span className="timer-label">Seconds</span>
-        </div>
       </div>
       <div className="buttons">
         <button onClick={startTimer}>Start</button>
         <button onClick={pauseTimer}>Pause</button>
         <button onClick={resetTimer}>Reset</button>
       </div>
+      <div className="timer-display">
+        <div className="timer-item">
+          <div>{timeLeft.days}</div>
+          Days
+        </div>
+        <div className="timer-item">
+          <div>{timeLeft.hours}</div>
+          Hours
+        </div>
+        <div className="timer-item">
+        <div>{timeLeft.minutes}</div>
+          Minutes
+        </div>
+        <div className="timer-item">
+        <div>{timeLeft.seconds}</div>
+          Seconds
+        </div>
+      </div>
+      
     </div>
   );
 };

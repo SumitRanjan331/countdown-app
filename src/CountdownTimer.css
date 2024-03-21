@@ -1,3 +1,11 @@
+#heading h1{
+    display:inline;
+}
+#heading2{
+    color: #7B1FA2;
+    margin: 15px;
+}
+
 
 .countdown-timer {
     display: flex;
@@ -12,10 +20,24 @@
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: #b336af;
+    background: linear-gradient(#b2c1ea, #a0349c);
   }
   
-  .countdown-timer div {
+  /* .countdown-timer div {
     font-size: 24px;
     color: #333;
+  } */
+
+  .timer-item{
+   
+     display: inline-block;
+     border: 1px solid #ae71c8;
+     padding: 10px;
+     margin: 5px;
+     border-radius: 20px;
+     background: linear-gradient(#e66465, #9198e5);
+
   }
   
+ 

@@ -1,6 +1,7 @@
 /* src/App.css */
 .App-header {
-  background-color: #CE93D8;
+  background: linear-gradient(#e66465, #9198e5);
+  /* background-color: #9370DB; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,3 +19,12 @@
   font-size: 2rem;
   margin: 20px;
 }
+
+/* .backgroundColor {
+  background-color: #9370DB;
+  color: white;
+}
+.backgroundGradient {
+  background: linear-gradient(to bottom, white, #9370DB);
+  color: white;
+} */
